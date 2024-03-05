@@ -1,0 +1,209 @@
+<html>
+    <title>การเขียนภาษา HTML เบื้องต้น</title>
+    <body>
+        <table bgcolor="#4F80C0"width="2000"border="0"cellspacing="0"cellpadding="1">
+            <tr>
+            <td>
+            <img src="pokweb.jpg"width="2000"height="200">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center"><font color="FFFFF"><font size="16"><b>การเขียนภาษา HTML เบื้องต้น</b></font></font></div>
+                </td>
+            </tr>
+            </table>
+        <br>
+        <br>
+        <br><br><a><font size="5"><b>✎ลักษณะของภาษา HTML</b></a></font>
+        <br><br><a><font size="5"></a>องค์ประกอบของภาษา HTML สามารถแบ่งออกได้ 2 ส่วน คือ ส่วนที่เป็นข้อความทั่ว ๆ ไป และส่วนที่เป็นคำสั่งที่ใช้กำหนดรูปแบบข้อความที่แสดงซึ่งเราเรียกว่า แท็ก (Tag) โดยแท็กคำสั่งของ
+            <br>HTML จะอยู่ในเครื่องหมาย < และ > ซึ่งมีหลักในการเขียนดังนี้
+            <br>
+            <br><a>1. รูปแบบแท็กจะแยกเป็น 2 ส่วน โดยแต่ละส่วนเริ่มต้นของแท็ก เรียกว่า “แท็กเปิด” และส่วนจบของแท็ก เรียกว่า “แท็กปิด” โดยในส่วนของแท็กปิดต้องมีเครื่องหมาย Slash (/)
+            <br>
+        <br>2. แท็ก (Tag)  เป็นลักษณะเฉพาะของภาษา HTML ใช้ในการระบุรูปแบบคำสั่งหรือการลงรหัสคำสั่ง HTML ภายในเครื่องหมาย less-than bracket ( < ) และ greater-than bracket ( > ) 
+        <br>โดยที่ Tag HTML แบ่งได้ 2 ลักษณะ คือ </font>
+        <br>
+    <br><a><font size="5">&nbsp;&nbsp;2.1 Tag เดี่ยว  เป็น Tag ที่ไม่ต้องมีการปิดรหัส เช่น <<a>br</a>>, <<a>hr</a>> เป็นต้น
+    <br>&nbsp;&nbsp;2.2 Tag เปิด/ปิด  เป็น Tag ที่ประกอบด้วย Tag เปิด และ Tag ปิด โดย Tag ปิด จะมีเครื่องหมาย slash (/) นำหน้าคำสั่งใน Tag นั้นๆ เช่น <<a>B</a>>…<<a>/B</a>>
+    </a></font>
+    <br>
+    <br>
+    <br><table bgcolor="skyblue" width="2000" border="0">
+        <tr>
+            <td>
+                <div align="center"><img src="tack.jpg"width="600"height="300"></div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br> <a><font size="5">3. ในกรณีต้องการซ้อนแท็กมากกว่า 1 แท็ก เราต้องทำการเปิด ปิดแท็กให้ถูกต้อง โดยการปิดแท็กในสุดก่อน แล้วจึงไล่ปิดแท็กอื่น ๆ ตามลำดับ</font></a>
+        <br>
+    <br>
+    <br><table bgcolor="skyblue" width="2000" border="0">
+        <tr>
+            <td>
+                <div align="center"><img src="pop.jpg"width="600"height="300"></div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br><a><font size="4">&nbsp;&nbsp;3.1 บางแท็กอาจจะไม่ต้องมีแท็กปิดก็ก็ใช้งานได้ เช่น <<a>br</a>>
+    <br>
+    <br>&nbsp;&nbsp;3.2 เราสามารถพิมพ์เป็นตัวเล็กตัวใหญ่ เช่น <<a>HTML</a>>,<<a>html</a>>,<<a>Html</a>> จะมีความหมายเหมือนกันเพื่อรองรับเอกสารแบบ XHTML
+    <br>
+    <br>&nbsp;&nbsp;3.3 บางแท็กจะต้องมีตัวกำหนดคุณสมบัติ เรียกว่า แอตทริบิวต์ (Attribute)และค่าที่ถูกกำหนดให้ใช้ในแท็ก(Value) โดยจะเขียนไว้หลังแท็กo แอตทริบิวต์ (Attributes)  
+    <br>เป็นส่วนขยายความสามารถของ Tag จะต้องใส่ภายในเครื่องหมาย < > ในส่วน Tag เปิดเท่านั้น Tag คำสั่ง HTML แต่ละคำสั่ง จะมี Attribute แตกต่างกันไป และมีจำนวน
+    <br>ไม่เท่ากันการระบุ Attribute มากกว่า 1 Attribute ให้ใช้ช่องว่างเป็นตัวคั่น
+</font>
+<br>
+<br>
+<br><a><font size="5">4.โครงสร้างภาษา HTML</font>
+
+    <br>
+    <br>
+<table width="400" border="1">
+    <tr>
+        <td>
+            <font size="5">
+<<a>html</a>>
+<br><<a>head</a>>
+<br><<a>title</a>>หัวข้อเว็บเพจ<<a>/title</a>>
+<br><<a>/head</a>>
+<br><<a>body</a>>
+<br>ส่วนเนื้อหา
+<br><<a>/body</a>>
+<br><<a>/html</a>>
+    </font>
+
+</td>
+</tr>
+</table>
+<br>
+<br><a><font size="4">&nbsp;&nbsp;4.1  <<a>html</a>>…<<a>/html</a>>เป็นแท็กแรกที่ต้องมีในภาษา HTML ซึ่งบอกให้ทราบว่านี้คือ ภาษา HTML ใช้ในการกำหนดจุดเริ่มและจุดสิ้นสุดของเอกสาร HTML
+<br>
+<br>&nbsp;&nbsp;4.2 <<a>head</a>>…<<a>/head</a>>  เป็นส่วนกำหนดรายละเอียดหัวเอกสาร HTML
+<br>
+<br>&nbsp;&nbsp;4.3 <<a>title</a>>…<<a>/title</a>>  เป็นแท็กที่ใช้กำหนดชื่อเว็บเพจ ซึ่งภายแท็กจะเป็นชื่อเรื่องเว็บที่ต้องการซึ่งความยาวไม่เกิน 64 ตัวอักษร ข้อความนี้จะปรากฏที่ title bar ของบราวเซอร์ที่เราใช้งานอยู่
+<br>
+<br>&nbsp;&nbsp;4.4 <<a>body</a>>…<<a>/body</a>>  ส่วนที่เป็นเนื้อหาเว็บเพจของเรา ไม่ว่าจะเป็นข้อความ รูปภาพ ตาราง และการเชื่อมโยงต่อไปยังเอกสารอื่น ๆ
+</font>
+<br>
+<br>
+<br><a><font size="5">5.วิธีการกำหนดขนาดตัวอัษร</font>
+<br>
+<br><a><font size="4">&nbsp;&nbsp;5.1 การจัดรูปแบบตัวอักษรหรือข้อความ ในเว็บเพจด้วยภาษา HTML นั้นเราสามารถกำหนดขนาดของตัวอักษรตามความต้องการและเหมาะสมกับแต่ละลักษณะของเว็บเพจและการกำหนดขนาดของตัวอักษร
+    <br>ข้อความสามารถกำหนดได้หลายขนาด
+<br>
+    <br>ขนาดของตัวอักษร จะกำหนดโดยใช้ตัวเลขที่มีค่า 1 - 7 เป็นตัวกำหนด โดยค่าตัวเลข 1 และ 2 จะเป็นการย่อขนาดของตัวอักษรค่าตัวเลข 3 ตัวอักษรจะอยู่ในระดับมาตราฐานและค่าตัวเลข 4 ถึง 7 จะเป็นตัวอักษรใหญ่ขึ้น ตามลำดับ
+<br>
+<br>
+<a>คำสั่งที่ใช้ คำสั่งจัดรูปแบบ (font) ตามด้วย คุณสมบัติของรูปแบบ (attribute) ซึ่งในการกำหนดขนาดตัวอักษร จะใช้ attribute ชื่อ size
+
+    <br><a>font</a> size="ค่าตัวเลขกำหนดขนาดของตัวอักษร">...ข้อความ...<<a>/font></a>
+    <br>
+          <br>นอกจากจะกำหนดขนาดของตัวอักษร ข้อความ ด้วยคำสั่ง font size แล้ว ในภาษา HTML ยังสามารถกำหนดขนาดของข้อความให้มีลักษณะเป็นหัวเรื่อง โดยเรียงตั้งแต่หัวเรื่องใหญ่ ไล่ลงมาถึงหัวเรื่องที่เล็กสุดได้
+    
+          <br>การกำหนดหัวเรื่อง สามารถกำหนดได้ โดยใช้คำสั่งดังนี้
+    <br>
+           <br><<a>h1>หัวเรื่องขนาดใหญ่ 1<<a>/h1></a></a>
+           <br><<a>h2>หัวเรื่องขนาดใหญ่ 2<<a>/h2></a></a>
+           <br><<a>h3>หัวเรื่องขนาดใหญ่ 3<<a>/h3></a></a>
+           <br><<a>h4>หัวเรื่องขนาดใหญ่ 4<<a>/h4</a>></a>
+           <br><<a>h5>หัวเรื่องขนาดใหญ่ 5<<a>/h5></a></a>
+          <br><<a>h6>หัวเรื่องขนาดใหญ่ 6<<a>/h6></a></a>
+    <br>
+           <br>โดยที่ <<a>h1></a> นั้นจะมีขนาดใหญ่ที่สุด ส่วน <<a>h6></a> จะมีขนาดเล็กที่สุด </a></font>
+    <br>
+    <br><a><font size="5">6.การใส่สีตัวอักษร</font>
+    <br>
+    <br><a><font size="4"><<a>p><<a>span style ="color: #800000;">น้ำตาล<</a>/span><</a>/p>
+<br>
+        <br><<a>p><<a>span </a>style="color: #ff0000;">แดง<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #ff00ff;">ชมพู<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #99cc00;">เขียวอ่อน<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #008000;">เขียวแก่<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #339966;">เขียว<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #ff6600;">ส้ม<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #cc99ff;">ม่วง<</a>/span><</a>/p>
+        <br>
+        <br> <<a>p><<a>span style="color: #3366ff;">ฟ้าน้ำเงิน<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #0000ff;">น้ำเงิน<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #993366;">น้ำตาล<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #800080;">น้ำตาลแก่<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #c0c0c0;">เทาอ่อน<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #999999;">เทา<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #999999;">เทาแก่<</a>/span><</a>/p>
+        <br>
+        <br> <<a>p><<a>span style="color: #33cccc;">ฟ้า<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #00ffff;">ฟ้า<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #808000;">กากี<</a>/span><</a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #ff9900;">ส้มอ่อน<</a>/span><<a>/p>
+        <br>
+        <br><<a>p><<a>span style="color: #99ccff;">ฟ้า<</a>/span><</a>/p>
+        <br>
+    <br>
+    <br>
+    <br><a><font size="5">7.เกี่ยวกับข้อความ</font>
+    <br>
+    <br><br><a><font size="4"><<a>b>ข้อความ<</a>/b> : ตัวหนา
+<br>
+       <br> <<a>strong>ข้อความ<</a>/strong> : ตัวหนา
+        <br>
+        <br><<a>i>ข้อความ<</a>/i> : ตัวเอียง
+        <br>
+        <br><<a>em>ข้อความ<</a>/em> : ตัวเอียง
+        <br>
+        <br><<a>u>ข้อความ<</a>/u> ขีดเส้นใต้
+        <br>
+        <br><<a>font size="10">ข้อความ<</a>/font> : ขนาดข้อความ
+        <br>
+        <br><<a>font color="#000000">ข้อความ<</a>/font> : สีข้อความ
+        <br>
+        <br><<a>font color="#000000" size="10">ข้อความ<</a>/font> : ขนาดและสีข้อความ</font>
+    <br>
+    <br>
+    <br>
+<table bgcolor="#4F80C0"width="2000"border="0"cellspacing="0"cellpadding="1">
+    <tr>
+        <td>
+            <div align="center"><font color="FFFFF"><font size="5"><b>&nbsp;&nbsp;&nbsp;&nbsp;</b></font></font></div>
+        </td>
+    </tr>
+    </table>
+<br>
+<br>
+<table align="center" width="800" border="1">
+    <tr align="center" >
+        <td>
+            <a href="html.html"><font color="Black"><font size="6"><b>⟸ กลับหน้าเดิม</b></h1></font></font>
+            </td>
+        <td>
+            <a href="web.html"><font color="Black"><font size="6"><b>กลับหน้าหลัก ⟰ </b></h1></font></font>
+            </td>
+                <td>
+                    <a href="me.html"><font color="Black"><font size="6"><b>อ่านหน้าถัดไป ⟹ </b></h1></font></font>
+                </td>
+    </tr>
+</table>
+<br>
+<br>
+    </body>
+</html>
